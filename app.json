@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "GalaxyX Dev Chat",
+    "slug": "galaxyx-dev-chat",
+    "scheme": "galaxyx",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/app-icon.png",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0F14"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/app-icon.png",
+        "backgroundColor": "#0B0F14"
+      },
+      "useNextNotificationsApi": true,
+      "package": "com.hihie.galaxyxdevchat"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icons/notification-icon.png",
+          "color": "#8B5CF6",
+          "sounds": []
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "800ccab8-d9a7-4854-b902-f4881bc8ae02"
+      }
+    },
+    "owner": "hihie"
+  }
+}

@@ -1,0 +1,10 @@
+# Expo/React Native caches
+.expo/
+.expo-shared/
+node_modules/
+dist/
+build/
+
+# macOS temporary files
+.DS_Store
+Library/
